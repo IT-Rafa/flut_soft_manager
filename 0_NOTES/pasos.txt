@@ -1,0 +1,25 @@
+CREAMOS PROYECTO
+	Creamos proyecto en github
+
+	clonamos proyecto en ordenador
+		git clone github:IT-Rafa/flut_soft_manager.git
+	
+	En carpeta anterior, creamos proyecto flutter CON MISMO NOMBRE que el proyecto github
+		flutter create -e .\flut_soft_manager\ --org es.itrafa
+
+Ejecutamos versión vacía del proyecto
+	Si funciona, git commit y push a github.
+		git commit -m "create flutter proyect empty, with org"
+
+AÑADIMOS CARACTERÍSTICAS
+
+Comenzamos con traducción
+(seguimos reglas de https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization#introduction-to-localizations-in-flutter)
+
+- Creamos git brach local
+	branch = add-translation-feature
+
+Añadimos los paquetes a usar
+	flutter pub add flutter_localizations --sdk=flutter
+	flutter pub add intl:any
+
