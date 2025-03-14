@@ -9,9 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Internationalization support.
   flutter_localizations:
     sdk: flutter
-  intl: any
+  intl: any # Use the pinned version from flutter_localizations
 
 dev_dependencies:
   flutter_test:

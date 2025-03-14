@@ -1,4 +1,5 @@
 {
     "@@locale": "es",
-    "helloWorld": "¡Hola Mundo!"
+    "appTitle": "Aplicación",
+    "helloWorld": "Hello World!"
 }
