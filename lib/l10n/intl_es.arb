@@ -1,0 +1,11 @@
+{
+    "@@locale": "es",
+    "appName": "app española",
+    "@appName": {
+        "description": "app name"
+    },
+    "helloWord": "¡hola mundo!",
+    "@helloWord": {
+        "description": "greeting"
+    }
+}
