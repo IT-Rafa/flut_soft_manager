@@ -11,10 +11,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localizationsDelegates: S.localizationsDelegates,
-      supportedLocales: S.supportedLocales,
+      localizationsDelegates: [S.delegate],
 
-      onGenerateTitle: (context) => S.of(context)!.appTitle,
+      onGenerateTitle: (BuildContext context) {
+        return S.of(context).appTitle;
+      },
       home: Scaffold(body: Center(child: Text(S.of(context)!.helloWorld))),
     );
   }
